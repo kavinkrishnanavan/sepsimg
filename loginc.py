@@ -1,9 +1,9 @@
-import main as dplet
+import main as mn
 
 def calli():
 
-  dplet.loginp()
+  mn.loginp()
   
 calli()
 
-import main as dplet
+
