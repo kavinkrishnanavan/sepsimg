@@ -18,6 +18,7 @@ def out():
     del st.session_state['log']
 
 def loginp():
+    import streamlit as st
 
     st.login("google")
     
@@ -4782,6 +4783,7 @@ def passfr():
     st.markdown(r"""
     ---
     """)
+
 
 
 
