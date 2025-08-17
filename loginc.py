@@ -1,5 +1,7 @@
 import main as mn
 
+import streamlit as st
+
 c = 0
 
 st.write("C")
