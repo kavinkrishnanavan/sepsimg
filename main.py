@@ -16,7 +16,11 @@ def out():
     st.logout()
     del st.session_state['log']
 
-def loginp():
+if "v" not in st.session_state:
+
+    st.session_state["v"] = 1
+else:
+
     st.login("google")
     
 def passfr():
@@ -4780,6 +4784,7 @@ def passfr():
     st.markdown(r"""
     ---
     """)
+
 
 
 
