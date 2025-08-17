@@ -9,7 +9,7 @@ import math # Import math for new calculations
 import Flowregime as fr # Import the new module
 from streamlit_pdf_viewer import pdf_viewer # Import the custom PDF viewer
 import function_handler as extra
-import loginc as lgc
+
 
 def out():
     import streamlit as st
@@ -4783,6 +4783,7 @@ def passfr():
     st.markdown(r"""
     ---
     """)
+
 
 
 
