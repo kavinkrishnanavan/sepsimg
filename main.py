@@ -16,6 +16,10 @@ def out():
     st.empty()
     st.logout()
     del st.session_state['log']
+
+def loginp():
+
+    st.login("google")
     
 def passfr():
 
@@ -4780,9 +4784,8 @@ def passfr():
     """)
 
 
-def loginp():
 
-    st.login("google")
+
 
 
 
