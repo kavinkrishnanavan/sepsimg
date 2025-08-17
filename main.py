@@ -10,7 +10,7 @@ import Flowregime as fr # Import the new module
 from streamlit_pdf_viewer import pdf_viewer # Import the custom PDF viewer
 import function_handler as extra
 
-st.login("google")
+
 def out():
     import streamlit as st
     st.empty()
@@ -4783,6 +4783,7 @@ def passfr():
     st.markdown(r"""
     ---
     """)
+
 
 
 
